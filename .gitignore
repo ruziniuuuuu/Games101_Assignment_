@@ -1,0 +1,15 @@
+# Ignore all .o and .a files
+*.o
+*.a
+
+# Ignore Makefile created by CMake
+Makefile
+CMakeFiles
+cmake_install.cmake
+CMakeCache.txt
+
+# Optionally, ignore the entire CMake output directory
+*/CMakeFiles/
+*/CMakeCache.txt
+*/cmake_install.cmake
+*/Makefile
