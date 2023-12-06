@@ -1,6 +1,6 @@
 #include<cmath>
-#include<eigen3/Eigen/Core>
-#include<eigen3/Eigen/Dense>
+#include<Eigen/Core>
+#include<Eigen/Dense>
 #include<iostream>
 
 int main(){
@@ -40,9 +40,17 @@ int main(){
     std::cout << "Example of output \n";
     std::cout << i << std::endl;
     // matrix add i + j
+    std::cout << "Example of add \n";
+    std::cout << i + j << std::endl;
     // matrix scalar multiply i * 2.0
+    std::cout << "Example of scalar multiply \n";
+    std::cout << i * 2.0 << std::endl;
     // matrix multiply i * j
+    std::cout << "Example of matrix multiply \n";
+    std::cout << i * j << std::endl;
     // matrix multiply vector i * v
+    std::cout << "Example of matrix vector multiply \n";
+    std::cout << i * v << std::endl;
 
     return 0;
 }

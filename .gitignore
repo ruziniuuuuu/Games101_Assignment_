@@ -2,6 +2,12 @@
 *.o
 *.a
 
+# Ignore files without an extension
+*.
+
+# Ignore .vscode
+.vscode
+
 # Ignore Makefile created by CMake
 Makefile
 CMakeFiles
